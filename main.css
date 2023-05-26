@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto', sans-serif;
+}
+
+header{
+    background-color: gray;
+}
+
+header h1{
+    color: #FFF;
+}
+
+p{
+    background-color: crimson;
+    color: #FFF;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+.container{
+    margin: 10% auto;
+    max-width: 300px;
+    width: 100%;
+    background-color: darkgrey;
+    text-align: center;
+}
+
+#numeros button{
+    border: none;
+    background-color: gray;
+    padding: 8px;
+    width: 20%;
+    border-radius: 5px;
+    /* display: block; */
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+#numeros button:hover{
+    background-color: lightgrey;
+}
+
